@@ -1,38 +1,129 @@
-.App {
+.app {
   text-align: center;
+  padding: 10px;
+}
+.slider {
+ position: relative;
+ width: 100%;
+}
+.slider__logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider__img {
+  padding-top: 60px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.slider-info {
+  min-width: 375px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #B5BCCD;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.slider-info__top {
+display: flex;
+flex-direction: column;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slider-info__bottom {
+display: flex;
+flex-direction: column;
+}
+
+.calc-em__top {
+border-radius: 15px;
+background-color: #ffff;
+}
+
+.left-element {
+  text-align: left;
+  padding: 5px 0px 0px 15px;
+}
+
+.calc-em__bottom {
+  border-radius: 5px; 
+  padding: 10px 30px 5px 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #9D9FAE;
+  justify-content: space-between;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
-.App-link {
-  color: #61dafb;
+
+.calc-em__title {
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.calc-em__price {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calc-em__price-right {
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  padding-right: 20px;
+  color: #A6B8FB;
 }
+
+.calc-em__range {
+  width: 100%;
+}
+
+.calc-em__range input{
+    -webkit-appearance: none;
+    width: 95%;
+    height: 2px;
+    background: #A6B8FB;
+}
+
+.price-element__currency {
+  -webkit-appearance: none;
+  color: #AD228E;
+  margin-left: 5px;
+  outline: none;
+  opacity: 0.7;
+}
+
+.price-element {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.slider-info__select {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13px;
+  }
+
+.slider-info__select-name {
+  margin-bottom: 7px;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: #9D9FAE;
+}
+
+.slider-info__result{
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .slider-info__select-result {
+    margin: 20px 50px 0 0;
+    background-color: #ffff;
+    color: #204DC0;
+    border-radius: 5px;
+  }
