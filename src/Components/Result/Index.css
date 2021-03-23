@@ -1,0 +1,105 @@
+.slider-info__top {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .slider-info__bottom {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .calc-em__top {
+    border-radius: 15px;
+    background-color: #ffff;
+    }
+    
+    .left-element {
+      text-align: left;
+      padding: 5px 0px 0px 15px;
+    }
+    
+    .calc-em__bottom {
+      border-radius: 5px; 
+      padding: 10px 30px 5px 30px;
+      display: flex;
+      color: #9D9FAE;
+      justify-content: space-between;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+    
+    
+    .calc-em__title {
+      margin-bottom: 8px;
+      font-size: 13px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+    }
+    .calc-em__price {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    
+    .calc-em__price-right {
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      padding-right: 20px;
+      color: #A6B8FB;
+    }
+    
+    .calc-em__range {
+      width: 100%;
+    }
+    
+    .calc-em__range input{
+        -webkit-appearance: none;
+        width: 95%;
+        height: 2px;
+        background: #A6B8FB;
+    }
+    
+    .price-element__currency {
+      -webkit-appearance: none;
+      color: #AD228E;
+      margin-left: 5px;
+      outline: none;
+      opacity: 0.7;
+    }
+    
+    .price-element {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    
+    .slider-info__select {
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 13px;
+      }
+    
+    .slider-info__select-name {
+      margin-bottom: 7px;
+      font-size: 12px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      color: #9D9FAE;
+    }
+    
+    .slider-info__result {
+      position: relative;
+      padding: 0;
+      display: flex;
+      }
+    
+    .slider-info__select-result {
+      position: absolute;
+      margin: 20px 100px;
+      background-color: #ffff;
+      color: #204DC0;
+      border-radius: 5px;
+    }
